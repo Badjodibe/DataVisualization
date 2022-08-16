@@ -23,10 +23,5 @@ mpg %>% ggplot(aes(x = displ ,y = hwy ))  + geom_point() + facet_wrap(.~class,nr
 
  diamonds %>% ggplot(aes(cut)) + geom_bar(fill = "blue",col = "black") 
 
- ?geom_histogram
- ?stat_bin
-
- ?geom_summary
-?geom_boxplot 
  
  
